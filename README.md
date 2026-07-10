@@ -16,7 +16,5 @@ Gentlemen ransomware operates in 5 phases: (1) exploit internet-facing apps → 
 - Indicators of compromise mapped to MITRE ATT&CK framework
 - Tuning guidance to reduce false positives specific to your organization
 
-**Prerequisites:**
-- Microsoft Defender ATP (Advanced Hunting access required)
-- Access to `DeviceProcessEvents`, `DeviceFileEvents`, `DeviceRegistryEvents`, `DeviceImageLoadEvents` tables
-- Windows Event Log forwarding (recommended but not required)
+**Note:**
+As this hunt is based on KQL queries for Sentinel/Defender it needs to be correctly connected to Sentinel or any other way to retrieve the data from the tables.
