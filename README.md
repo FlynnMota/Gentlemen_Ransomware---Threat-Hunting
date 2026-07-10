@@ -17,7 +17,9 @@ Gentlemen ransomware operates in 5 phases: (1) exploit internet-facing apps → 
 - Tuning guidance to reduce false positives specific to your organization
 
 
-### **Note: additional configuration**
+## **Note: additional configuration**
+### 🔌 How to Connect This Notebook to Microsoft Sentinel / Defender
 
-As this hunt is based on KQL queries for Sentinel/Defender it needs to be correctly connected to Sentinel.
+As this hunt is based on KQL queries for Sentinel/Defender and the purpose here is to share the knowledge how to hunt for those activities in that environment, **additional connection to Sentinel is needed**.<br>
 To connect a Jupyter notebook to Microsoft Sentinel and run KQL hunting queries, you can either utilize the integrated Azure/Defender Portal Notebooks environment (which uses MSTICPy) or run queries locally/externally via the Kqlmagic library.
+You may also need to insert some parameters to the hunting querie cells to make them retrieve the results appropriatelly.
