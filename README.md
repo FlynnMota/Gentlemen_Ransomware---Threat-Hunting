@@ -1,6 +1,6 @@
 # Gentlemen Ransomware
 
-Jupyter notebook with KQL queries to hunt for Defense Evasion technique.
+KQL-based threat hunt notebook for Gentlemen Ransomware (2025–2026) — 7 hypothesis-driven hunts covering BYOVD, ETW tampering, lateral Defender disabling, and forensic artifact destruction. Built for Microsoft Defender XDR and Microsoft Sentinel.
 
 ## 📋 Executive Summary
 
